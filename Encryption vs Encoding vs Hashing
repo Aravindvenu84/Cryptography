@@ -1,0 +1,13 @@
+<h2>Encryption vs Encoding vs Hashing</h2>
+
+| Aspect                     | Encryption                                  | Encoding                                              | Hashing                                 |
+| -------------------------- | ------------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
+| **Definition**             | Secure transformation of data using a key   | Data transformation for compatibility or transmission | One-way transformation of data          |
+| **Primary Purpose**        | Protect confidentiality                     | Ensure proper data format and transmission            | Verify data integrity                   |
+| **Security Provided**      | ✅ Yes                                      | ❌ No                                                 | ✅ Yes                                  |
+| **Reversibility**          | Reversible with the correct key             | Fully reversible                                      | Irreversible                            |
+| **Key Required**           | Yes (secret or public/private key)          | No                                                    | No                                      |
+| **Output Length**          | Variable                                    | Variable                                              | Fixed                                   |
+| **Algorithms / Examples**  | AES, RSA, Blowfish                          | Base64, ASCII, UTF-8                                  | SHA-256, SHA-1, MD5                     |
+| **Common Use Cases**       | Secure communication, file protection, VPNs | Email transfer, data storage, character encoding      | Password storage, file integrity checks |
+| **Data Recovery Possible** | Yes (with key)                              | Yes                                                   | No                                      |
